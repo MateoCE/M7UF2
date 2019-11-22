@@ -1,5 +1,6 @@
+Contraseñas: password1 para mateo y password2 para ruben
+
 create table user(id int auto_increment primary key, name varchar(60) not null, email varchar(255) not null, password varchar(255) not null);
-Query OK, 0 rows affected (0.26 sec)
 
 insert into user (name, email, password) value('mateo', 'mateo@test.com', '0b14d501a594442a01c6859541bcb3e8164d183d32937b851835442f69d5c94e');
 
