@@ -1,4 +1,3 @@
-Contraseñas: password1 para mateo y password2 para ruben
 
 create table user(id int auto_increment primary key, name varchar(60) not null, email varchar(255) not null, password varchar(255) not null);
 
